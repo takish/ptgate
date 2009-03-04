@@ -1,0 +1,18 @@
+*Protocol Transfer Gateway
+
+ptgate(Protocol Transfer Gateway)は，拠点間でIPトンネルを行い，その際にFECによる冗長化なども行うゲートウェイです．FECによりL3以上を冗長化します．
+本ゲートウェイはIPトンネリングを行っているため，マルチキャストパケットをユニキャストでトンネルするマルチキャストトンネル機能や，IPv6パケットをIPv4パケットでトンネルするといったIPv4/v6トンネル機能なども有しています．
+
+--特徴
+ -FECによる冗長化
+ -ポート集約機能
+ -マルチキャストトンネル機能
+ -IPv4/v6トンネル機能
+
+インストール方法は，INSTALLを参照してください．
+
+*動作確認OS
+
+Vine Linux 3.0, 3.1，Fedora core 2，RedHat Linux 8.0
+
+*使い方

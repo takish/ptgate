@@ -1,0 +1,9 @@
+==========================
+INSTALATION INSTRUCTIONS
+==========================
+
+tar zxvf ptgate-***.tar.gz
+$ cd ptgate
+$ su
+# make 
+# make install
